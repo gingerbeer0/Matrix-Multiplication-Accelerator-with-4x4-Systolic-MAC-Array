@@ -19,13 +19,17 @@ This project implements a matrix multiplication accelerator using a 4x4 dynamic-
 - **Result Buffer**: Accumulates intermediate results and writes to output memory.
 
 ## 📁 File Structure
+![image](https://github.com/user-attachments/assets/07fc4e97-b838-46f1-9469-f8364e901353)
+
 
 
 ## ▶️ Simulation
+![image](https://github.com/user-attachments/assets/f0dcaf87-f78d-4690-99ff-74dc989ef56b)
 
 Simulated using predefined `.hex` files for multiple MNT cases (e.g., 888, 333, 357). All cases passed successfully.
 
 ## 🛠️ Synthesis
+![image](https://github.com/user-attachments/assets/2a6a98f5-6917-457c-abcd-fbfc0634f355)
 
 Synthesis was performed with Intel Quartus. Additional registers were inserted to meet timing (hold time fix), but area remains within design constraints.
 
