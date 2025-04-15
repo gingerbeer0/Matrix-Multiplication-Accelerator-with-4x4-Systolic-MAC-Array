@@ -31,5 +31,4 @@ Simulated using predefined `.hex` files for multiple MNT cases (e.g., 888, 333, 
 ## 🛠️ Synthesis
 ![image](https://github.com/user-attachments/assets/2a6a98f5-6917-457c-abcd-fbfc0634f355)
 
-Synthesis was performed with Intel Quartus. Additional registers were inserted to meet timing (hold time fix), but area remains within design constraints.
 
